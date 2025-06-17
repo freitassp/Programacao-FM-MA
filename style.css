@@ -1,11 +1,17 @@
 body{
     background-color: #305050;
     color: white;
-
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2{
     color:black;
+    font-size: 40px;
+}
+
+p{
+    font-size: 18px;
 }
 
 .texto-inglês{
@@ -14,4 +20,13 @@ h2{
 
 #nome-usuário {
     font-weight: bold;
+}
+
+@media screen and (max-width:420px){
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 24px;
+    }
 }
