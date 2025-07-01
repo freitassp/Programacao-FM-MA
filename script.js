@@ -7,3 +7,5 @@ inserirNome();
 
 let linguagens = ["JavaScript", "Python", "C++"];
 console.log(linguagens[0])
+
+const item = document.querySelector("#lista");
