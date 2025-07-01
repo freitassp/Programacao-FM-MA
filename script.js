@@ -4,3 +4,5 @@ function inserirNome(){
  elemento.textContent = nomeUsuario;
 }
 inserirNome();
+
+let linguagens = ["JavaScript", "Python", "C++"];
